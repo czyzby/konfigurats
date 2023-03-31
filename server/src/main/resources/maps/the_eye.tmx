@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="24" height="24" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="dungeon" tilewidth="66" tileheight="66">
+  <tileoffset x="-1" y="-3"/>
+  <image source="tiles-dungeon.png" width="528" height="132"/>
+ </tileset>
+ <layer name="background" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJy9lUsOgDAIRKuy1Ptf141EMpmhWK1NZoP2UVo+rc1fxyRF/kZkQWhj/1iwbYS/XloGhHsV331nHGX3GBTf7VZkogw4jF+JvaIKf+/oD76K68vzMx9P+Z4bo3xr9zu6ZvGr95PllBE+5uKb/FH86ONLPr6vqqkntZzxlY9qLVf4b3wwfnYn+K3nU+Un65/IVDHFvap+Wf/Hust6zkh/HhHjZ/OXzeJsTkf+zHUCOLEHpQ==
+  </data>
+ </layer>
+ <layer name="foreground" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6gHfU/FHzR80fNX/U/FHzR80ftubz0hADABczAko=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="24" height="24">
+  <object name="LAVA" x="229" y="229" width="229" height="70">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="229" y="297" width="69" height="99">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="391" y="301" width="66" height="90">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="230" y="390" width="227" height="63">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="132" y="159" width="16" height="16">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="609" y="630" width="14" height="16">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="611" y="155" width="18" height="18">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="125" y="633" width="18" height="18">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="149" y="609" width="18" height="18">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="155" y="134" width="18" height="18">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="631" y="611" width="18" height="18">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="633" y="131" width="18" height="18">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="42" y="42" width="677" height="675">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="22" y="22" width="720" height="716">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="2" y="3" width="765" height="759"/>
+ </objectgroup>
+</map>

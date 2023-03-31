@@ -1,0 +1,8 @@
+.gradle/
+.idea/
+build/
+konfigurats-database.tmp/
+konfigurats-database.lck
+konfigurats-database.log
+konfigurats-database.properties
+konfigurats-database.properties.new

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="32" height="32" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="desert" tilewidth="64" tileheight="64">
+  <image source="tiles-desert.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="25" name="dungeon" tilewidth="66" tileheight="66">
+  <tileoffset x="-1" y="0"/>
+  <image source="tiles-dungeon.png" width="528" height="132"/>
+ </tileset>
+ <layer name="background" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzNlt1uwjAMhQPpNpr+wCbtAm642fs/47AUS6dnttuOqV2lI5LUyRc7dspnSuljJ8nz/lC3kyJ+G4y3xntrvCfxHOZfYK0C6+l8eXc2eJZwD9eH7lXXGf/ZFvko9tuKhfZlra+q+wzfspW1RsNHK6aoPljT4reBra5X4GyycT6Dwbdi6vG9s1JuX7ksjovoWNXQfIvfgLyYMv8V2pwXHbCb2i5kw/wXsPfOU4W+lzT1D/miE7QjPgprzYpD5/B1D8oR5gH4Xv23Bj+S3hUFfgv11fYAe4nuH+9uQ2WKQyEWj2G8xz/gaz3fSFqrEZ/FfL1jIv+6yuPnFszx9sB8jQHnGsvj8zl4+Rvx5zSu4PNcroGIPzjjS+LPfIm/3kHyqzm8xn88w7n84xgoU3R6gt9Tu0/TPOeY6xjel3i/rOEzt4P1vDyX/gBtZVv+a17ge1ROP/fBd6VVZ9Z3ycq/Iygnew/MQX9ywFla/5qjuoelZ/EW7Hmp/1Gdsi5pmgMotvX+z1j8yHauJrR/pn70f475ke1vamQLPn9Tt4z/s2L+1voP/L2fb4mLLVE=
+  </data>
+ </layer>
+ <layer name="foreground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzbENACAMBLHsAAL2n5SwBN/4pKtdlWsF7dfg8/l8Pp/P5/P5fD7/k3/6GXr3F1fpBNg=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="32" height="32">
+  <object name="WARN" x="446" y="447">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 0,119 120,121 120,0 0,-1"/>
+  </object>
+  <object name="VOID" x="458" y="458" width="94" height="96">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="VOID" x="480" y="480" width="54" height="58">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="VOID" x="497" y="499" width="22" height="22">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="808" y="808" width="38" height="38">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="135" y="840" width="38" height="38">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="168" y="169" width="38" height="38">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="839" y="135" width="38" height="38">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="21" y="21" width="974" height="974">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="6" y="7" width="1006" height="1002">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="-20" y="-23" width="1055" height="1055">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="-48" y="-49" width="1112" height="1106">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="871" y="775" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="773" y="870" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="103" y="905" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="197" y="811" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="139" y="234" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="234" y="137" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="809" y="198" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="902" y="105" width="30" height="30">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

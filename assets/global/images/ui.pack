@@ -1,0 +1,111 @@
+
+ui.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dialog-alt
+  rotate: false
+  xy: 1, 8
+  size: 98, 55
+  split: 48, 48, 42, 12
+  orig: 98, 55
+  offset: 0, 0
+  index: -1
+dialog
+  rotate: false
+  xy: 101, 8
+  size: 98, 55
+  split: 48, 48, 42, 12
+  orig: 98, 55
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 201, 19
+  size: 20, 44
+  split: 9, 9, 27, 12
+  orig: 20, 44
+  offset: 0, 0
+  index: -1
+checkbox-on
+  rotate: false
+  xy: 223, 43
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+checkbox-off
+  rotate: false
+  xy: 223, 21
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+slider-knob
+  rotate: false
+  xy: 245, 43
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 257, 49
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 273, 49
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 289, 49
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+textfield-focus
+  rotate: false
+  xy: 305, 49
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+slider
+  rotate: false
+  xy: 245, 21
+  size: 3, 20
+  split: 1, 1, 10, 9
+  orig: 3, 20
+  offset: 0, 0
+  index: -1
+textcursor
+  rotate: false
+  xy: 201, 1
+  size: 5, 16
+  orig: 5, 16
+  offset: 0, 0
+  index: -1
+icon-background
+  rotate: false
+  xy: 321, 56
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+select
+  rotate: false
+  xy: 257, 46
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="32" height="32" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="dungeon" tilewidth="66" tileheight="66">
+  <tileoffset x="-1" y="-3"/>
+  <image source="tiles-dungeon.png" width="528" height="132"/>
+ </tileset>
+ <layer name="background" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0SEKADAMBMGrqun/31sbqA4b2AbOxIzYJNngMshfZaes4//91+826//78/rbfbq/3af72326v92n+9t9ur/dp/vbfWITfPIujiUYqg==
+  </data>
+ </layer>
+ <layer name="foreground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAADwbhAAAAE=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="32" height="32">
+  <object name="SPAWN" x="218" y="763" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="214" y="373" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="413" y="574" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="601" y="762" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="493" y="278" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="787" y="566" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="793" y="186" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="122" y="89" width="27" height="26">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="98" y="739" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="99" y="547" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="194" y="834" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="195" y="644" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="291" y="740" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="387" y="836" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="99" y="356" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="195" y="451" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="292" y="548" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="387" y="644" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="484" y="740" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="579" y="836" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="99" y="164" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="196" y="259" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="291" y="356" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="387" y="452" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="483" y="548" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="579" y="644" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="674" y="738" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="773" y="837" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="197" y="69" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="291" y="164" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="385" y="260" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="484" y="355" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="580" y="451" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="675" y="548" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="773" y="645" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="867" y="740" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="386" y="66" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="485" y="164" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="578" y="259" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="673" y="355" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="772" y="451" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="866" y="546" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="868" y="356" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="773" y="261" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="675" y="164" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="576" y="66" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="772" y="68" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="867" y="164" width="73" height="73">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="VOID" x="-1" y="-29" width="1041" height="1038">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="VOID" x="-27" y="-58" width="1092" height="1095">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="VOID" x="-53" y="-80" width="1148" height="1148">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="945" y="916" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="83" y="54" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="940" y="49" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="81" y="908" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="516" y="485" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="WARN" x="21" y="-13">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 0,994"/>
+  </object>
+  <object name="WARN" x="23" y="983">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 994,3"/>
+  </object>
+  <object name="WARN" x="1017" y="983">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 -3,-991"/>
+  </object>
+  <object name="WARN" x="1013" y="-10">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 -992,-4"/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="30" height="30" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="desert" tilewidth="64" tileheight="64">
+  <image source="tiles-desert.png" width="512" height="192"/>
+ </tileset>
+ <layer name="background" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlotqwzAMRV03aZdHm3bQ///VRaALt0K27EIYgwkuCYmlIyl+5JVS+m5QzV6NMTjWc1cmnXYNehWdVTV7qo9opvuziX3ftRmfUcdZ5kl9Im5W5m3XQtyBJGMeTq6oLdP9pYMrOa7Khb/tWzY+3OfsKOKiT6iL62B2FKvHmMvxuW/QcCCXe9bDbV0XHpfnouVBUf6ej+dvuZ5auTxermt675/HZQ7XXMq3xOV1dzPsiAtNqlbuRrGyMsHFerFc+21knOwlC/m0ft9MV9RZ43rieR5x7TqMuGPAbu0znw/gt+b9qYHr6Yh9h7neWfhI7/P8CC73s/c7/dvfs95/t0//Ea3JXFsKmivvJud9VEeJi71+pLgcW+43ej45XKwZOW9q64S5iDU7+qIckJ+cJ1eHy3sEn30Rl9k4r5jHKtXr/UfWuJbtcfGsxJX67oZd6/Oi4+28WUkXyoPfWW60D9bmc69+034ANcQQCA==
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlksOABAMRN2B4P4nZWmlrY74ZCbpDs9CX4WgS1auQ58VgVzLWeT6uLVXUlQBc0/Ey13tLS93dT+55N7M1boH5aBXvXML98SsYPBB/hEtkd7jrntJ3F39Se7/3JkTRw9aZ53k1wZhvAhj
+  </data>
+ </layer>
+ <objectgroup name="objects" width="30" height="30">
+  <object name="SPAWN" x="521" y="798" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="724" y="798" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="328" y="460" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="311" y="323" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="749" y="332" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="735" y="110" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="250" y="82" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="171" y="826" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="90" y="829" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="405" y="794" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="833" y="789" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="239" y="371" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="89" y="77" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="623" y="114" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="25" y="759" width="193" height="161">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="343" y="697" width="581" height="227">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="181" y="243" width="295" height="327">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="565" y="24" width="360" height="421">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="17" y="18" width="303" height="143">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="536" y="-3" width="421" height="473">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="-3" y="-1" width="350" height="182">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="157" y="223" width="346" height="374">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="316" y="672" width="638" height="286">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="-2" y="734" width="250" height="210">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="-25" y="-27" width="1007" height="1013">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+  <object name="OUTER" x="116" y="184" width="405" height="431">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

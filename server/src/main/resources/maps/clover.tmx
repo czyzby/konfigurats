@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="30" height="30" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="dungeon" tilewidth="66" tileheight="66">
+  <tileoffset x="-1" y="-3"/>
+  <image source="tiles-dungeon.png" width="528" height="132"/>
+ </tileset>
+ <layer name="background" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdlusKwyAMhdVW/NP3f96toCBpTi7GbTAhlFrTT0/1pCn9rpV3ZGOUjfnjvpB3cH2Z4a7mjzGNGU9D4tLrzKtM/jy+Ad2s3Jye/Er6pPmucrV1S9zIetE3lrgS26sz0tzD9ewr7QxRrjbewvXqtXO93LmzcLWYz3pLmGc5/x6fQ1xPrrcN1kWi9vhUO3pQ7tDw37i7dfbsizvOiXUu5M9cyZPpM44bqb/Uz5APcHpJPJSPvC3izxa/k7xR8jmOa/ERxOV8Olp/5z6kE1rnSj2S8jV9rFxtXyDu7UUtPXVB38c679rfjbitP0dztujMjT+S/B/rrZ/RfG8N5biR/G+2F4isBKQ=
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="30" height="30">
+  <object name="LAVA" x="423" y="423" width="97" height="97">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="95" y="121" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="123" y="92" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="92" y="827" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="119" y="797" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="792" y="826" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="821" y="797" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="794" y="122" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="822" y="94" width="23" height="22">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="VOID" x="1" y="1">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+   <polyline points="0,0 3,427 318,429 316,508 -9,505 1,943 437,947 431,623 506,622 507,943 949,949 945,514 621,510 621,427 947,437 945,2 501,-10 506,318 431,319 432,0 -3,-3"/>
+  </object>
+  <object name="VOID" x="-7" y="13">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+   <polyline points="-20,-47 -37,431 295,439 296,467 -34,461 -21,957 479,972 468,639 485,641 497,973 999,976 986,481 659,472 657,449 991,468 992,-47 483,-59 488,285 466,281 455,-55 -36,-53"/>
+  </object>
+  <object name="VOID" x="-82" y="-82" width="1126" height="1123">
+   <properties>
+    <property name="VOID" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="198" y="199" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="708" y="195" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="201" y="713" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="TELEPORT" x="707" y="708" width="29" height="27">
+   <properties>
+    <property name="TELEPORT" value=""/>
+   </properties>
+  </object>
+  <object name="WARN" x="18" y="18">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 2,897"/>
+  </object>
+  <object name="WARN" x="23" y="919">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 904,3"/>
+  </object>
+  <object name="WARN" x="922" y="918">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 -2,-897"/>
+  </object>
+  <object name="WARN" x="914" y="20">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 -894,0"/>
+  </object>
+  <object name="WARN" x="22" y="405">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 317,3 319,127 -2,127"/>
+  </object>
+  <object name="WARN" x="407" y="917">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 2,-316 122,-314 126,3"/>
+  </object>
+  <object name="WARN" x="916" y="534">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 -316,-2 -315,-129 2,-125"/>
+  </object>
+  <object name="WARN" x="530" y="22">
+   <properties>
+    <property name="WARN" value=""/>
+   </properties>
+   <polyline points="0,0 1,318 -123,317 -121,2"/>
+  </object>
+ </objectgroup>
+</map>

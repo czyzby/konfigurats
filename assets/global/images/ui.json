@@ -1,0 +1,58 @@
+{
+    com.badlogic.gdx.graphics.Color: {
+        white: { r: 1, g: 1, b: 1, a: 1 },
+        black: { r: 0, g: 0, b: 0, a: 1 },
+        beige: { r: 0.73, g: 0.73, b: 0.575, a: 1 },
+        gray: { r: 0.5, g: 0.5, b: 0.4, a: 1 },
+        red: { r: 0.8, g: 0, b: 0, a: 1 },
+        yellow: { r: 0.65, g: 0.55, b: 0, a: 1 },
+        darkyellow: { r: 0.47, g: 0.37, b: 0, a: 1 }
+    },
+    
+    com.badlogic.gdx.graphics.g2d.BitmapFont: {
+        default: { file: global/fonts/courier.fnt },
+        limited: { file: global/fonts/courier-limited.fnt }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+        default: { font: default, fontColor: gray },
+        bright: { font: default, fontColor: beige },
+        medium: { font: default, fontColor: darkyellow },
+        dark: { font: default, fontColor: red },
+        title: { font: default, fontColor: yellow }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+        default: { background: window, titleFont: default, titleFontColor: red },
+        dialog: { background: dialog, titleFont: default, titleFontColor: red, stageBackground: select },
+        dialog-alt: { background: dialog-alt, titleFont: default, titleFontColor: red, stageBackground: select }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+        default: { up: button, font: default, fontColor: red, overFontColor: yellow, downFontColor: yellow, pressedOffsetY: -1 },
+        text: { font: default, fontColor: gray, overFontColor: red, downFontColor: red, pressedOffsetY: -1 },
+        team0: { font: default, fontColor: red, overFontColor: gray, downFontColor: gray, pressedOffsetY: -1 },
+        team1: { font: default, fontColor: yellow, overFontColor: gray, downFontColor: gray, pressedOffsetY: -1 }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+        default: { font: default, fontColor: gray, focusedFontColor: yellow, background: textfield, focusedBackground: textfield-focus, cursor: textcursor, selection: select },
+        limited: { font: limited, fontColor: gray, focusedFontColor: yellow, background: textfield, focusedBackground: textfield-focus, cursor: textcursor, selection: select }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+        default: { background: list, hScrollKnob: button, vScrollKnob: button }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+        default-horizontal: { background: slider, knob: slider-knob }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+        default: { font: default, fontColorUnselected: gray, fontColorSelected: yellow, selection: select }
+    },
+    
+    com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+        default: { checkboxOn: checkbox-on, checkboxOff: checkbox-off, checkboxOnDisabled: checkbox-on, checkboxOffDisabled: checkbox-off, font: default, fontColor: gray, disabledFontColor: beige }
+    }
+}

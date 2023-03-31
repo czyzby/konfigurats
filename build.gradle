@@ -1,0 +1,27 @@
+buildscript {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    gradlePluginPortal()
+  }
+}
+
+allprojects {
+  apply plugin: 'idea'
+}
+
+subprojects {
+  apply plugin: 'java-library'
+  sourceCompatibility = 1.8
+  compileJava {
+    options.incremental = true
+  }
+
+  version = '0.99b'
+  ext.appName = 'konfigurats'
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    gradlePluginPortal()
+  }
+}

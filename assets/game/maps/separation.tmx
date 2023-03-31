@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="24" height="24" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="dungeon" tilewidth="66" tileheight="66">
+  <tileoffset x="-1" y="-3"/>
+  <image source="tiles-dungeon.png" width="528" height="132"/>
+ </tileset>
+ <layer name="background" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzd07EKACAIBNCG2oL+/29bGiJQO62shJuCJ8gVgu8UQ2b9pAzi5xYPP3bR+lxe96X7Sz1b4WsNxOc6Yukn4nM7xnf0PtIOq4/eSeOf7M/snPSpv/6DT/UP8ZFurvZv7c/OqXFqCZI=
+  </data>
+ </layer>
+ <layer name="foreground" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6gH/U/FHzR80fNX/UfJz6CWFKzaclGDV/1HyYOnIxIQAAVWECpA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="24" height="24">
+  <object name="LAVA" x="107" y="331" width="30" height="30">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="331" y="106" width="30" height="30">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="616" y="360" width="33" height="34">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="358" y="615" width="34" height="33">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="328" y="327" width="36" height="36">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="389" y="390" width="36" height="34">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="LAVA" x="357" y="357" width="37" height="36">
+   <properties>
+    <property name="LAVA" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="177" y="593" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="591" y="175" width="29" height="27">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="BOUNDS" x="272" y="272">
+   <properties>
+    <property name="BOUNDS" value=""/>
+   </properties>
+   <polyline points="0,0 -5,-230 437,-229 439,185 182,183 184,440 -237,443 -233,-7 -1,1"/>
+  </object>
+  <object name="OUTER" x="18" y="715">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+   <polyline points="0,0 6,-470 234,-463 229,-696 702,-691 709,-239 451,-243 455,14 -1,9 1,-1"/>
+  </object>
+  <object name="OUTER" x="-3" y="219">
+   <properties>
+    <property name="OUTER" value=""/>
+   </properties>
+   <polyline points="0,0 227,3 224,-221 741,-218 771,-187 768,291 509,291 511,547 31,547 0,512 -3,0"/>
+  </object>
+  <object name="SPAWN" x="125" y="541" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="544" y="128" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="129" y="594" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="177" y="549" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="548" y="183" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+  <object name="SPAWN" x="597" y="133" width="32" height="32">
+   <properties>
+    <property name="SPAWN" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
