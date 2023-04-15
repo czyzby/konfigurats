@@ -57,17 +57,17 @@ public class Maps {
 	public static enum MapInfo {
 		RANDOM(-2,"Random (constant)",""),
 		RANDOM_CHANGING(-1,"Random (changing)",""),
-		THE_EYE(0,"The Eye (12)","the_eye"),
-		SEPARATION(1,"Separation (8)","separation"),
-		THE_PIT(2,"The Pit (10)","the_pit"),
-		CLOVER(3,"Clover (12)","clover"),
-		DEVILS_TRAP(4,"Devil's Trap (12)","devils_trap"),
-		CHESSBOARD(5,"Chessboard (12)","chessboard"),
-		DESERT_MAYHEM(6,"Desert Mayhem (8)","desert_mayhem"),
-		CHAOS_DESERT(7,"Chaos Desert (12)","chaos_desert"),
-		CAVES_OF_DESPAIR(8,"Caves of Despair (10)","caves_of_despair"),
-		LAKE_OF_FIRE(9,"Lake of Fire (10)","lake_of_fire"),
-		LEAP_OF_FAITH(10,"Leap of Faith (8)","leap_of_faith");
+		THE_EYE(0,"The Eye","the_eye"),
+		SEPARATION(1,"Separation","separation"),
+		THE_PIT(2,"The Pit","the_pit"),
+		CLOVER(3,"Clover","clover"),
+		DEVILS_TRAP(4,"Devil's Trap","devils_trap"),
+		CHESSBOARD(5,"Chessboard","chessboard"),
+		DESERT_MAYHEM(6,"Desert Mayhem","desert_mayhem"),
+		CHAOS_DESERT(7,"Chaos Desert","chaos_desert"),
+		CAVES_OF_DESPAIR(8,"Caves of Despair","caves_of_despair"),
+		LAKE_OF_FIRE(9,"Lake of Fire","lake_of_fire"),
+		LEAP_OF_FAITH(10,"Leap of Faith","leap_of_faith");
 
 		private final int index;
 		private final String name,fileName;

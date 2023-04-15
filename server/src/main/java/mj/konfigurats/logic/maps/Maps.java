@@ -55,16 +55,16 @@ public class Maps {
 		RANDOM(-2,"",0),
 		RANDOM_CHANGING(-1,"",0),
 		THE_EYE(0,"the_eye",12),
-		SEPARATION(1,"separation",8),
-		THE_PIT(2,"the_pit",10),
+		SEPARATION(1,"separation",12),
+		THE_PIT(2,"the_pit",12),
 		CLOVER(3,"clover",12),
 		DEVILS_TRAP(4,"devils_trap",12),
 		CHESSBOARD(5,"chessboard",12),
-		DESERT_MAYHEM(6,"desert_mayhem",8),
+		DESERT_MAYHEM(6,"desert_mayhem",12),
 		CHAOS_DESERT(7,"chaos_desert",12),
-		CAVES_OF_DESPAIR(8,"caves_of_despair",10),
-		LAKE_OF_FIRE(9,"lake_of_fire",10),
-		LEAP_OF_FAITH(10,"leap_of_faith",8);
+		CAVES_OF_DESPAIR(8,"caves_of_despair",12),
+		LAKE_OF_FIRE(9,"lake_of_fire",12),
+		LEAP_OF_FAITH(10,"leap_of_faith",12);
 		
 		private final int index,limit;
 		private final String mapName;

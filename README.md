@@ -1,3 +1,5 @@
+![Banner](.github/banner.png)
+
 # Konfigurats: The First Configuration
 
 This game has it all: spaghetti code, unreadable fonts, terrible UI, clunky animations,
@@ -108,10 +110,11 @@ so that it's easier to work with. For the curious, this is what I've done:
 * Changed the client backend from LWJGL2 to LWJGL3 to avoid errors on newer JVMs.
 * Removed `libs/` folders and replaced those with proper Gradle dependencies. Yep.
 * Included the server as a Gradle module in the same project to simplify setup.
+* All maps can now be entered by up to 12 players for convenience during randomized setup.
 * Made the "elite" player check optional with environment variables. I think this was some
-  rough attempt at monetization that I no longer understand nor care about, just know that
-  every player can now play as every character, unless you really want to you can turn it
-  on with the `SKIP_ELITE_CHECK=false` environment variable.
+  rough attempt at monetization that I no longer understand nor care about. Just know that
+  every player can now play as every character, but you can turn it off if you really want to
+  with the `SKIP_ELITE_CHECK=false` environment variable.
 
 I've made no attempt to format, fix, refactor or optimize the code. You can enjoy it in
 all its glory. Needless to say, it aged like fine milk.
