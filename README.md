@@ -4,7 +4,7 @@
 
 This game has it all: spaghetti code, unreadable fonts, terrible UI, clunky animations,
 security issues, and questionable hitboxes! Relive the worst parts of the golden era
-of Flash games, expect this time with Java and without the rose-tinted nostalgia glasses.
+of Flash games, except this time with Java and without the rose-tinted nostalgia glasses.
 
 Konfigurats is a multiplayer PvP game roughly based on the _Warlock_ mod from _Warcraft III_,
 which hilariously I've never played. What I did play was the _Warlocks Arena 2_ Flash game
@@ -39,18 +39,18 @@ Download the JAR archives from the [releases](https://github.com/czyzby/konfigur
 
 Make sure that the `42666` and `43666` ports are free.
 Place the [`konfigurats-database.script`](server/konfigurats-database.script) in the same
-directory as the server JAR. Run the server:
+directory where you execute the server JAR. Run the server:
 
 ```bash
-java -jar konfigurats-server-0.99b.jar
+java -jar konfigurats-server.jar
 ```
 
 Make sure that the server is reachable in your local network or globally.
 Now the clients should be able to connect.
 
-To play the game, mark the `konfigurats-0.99b.jar` file as executable and run it with your
-Java Runtime Environment. Java 8 and 11 should be fine, newer releases might not be able to
-run the game. Enter the server IP after the game is loaded.
+To play the game, mark the `konfigurats-client.jar` file as executable and run it with your
+Java Runtime Environment. Java 8 and 11 should be fine, but newer releases might not be able to
+run the game. Enter the server IP after the assets are loaded.
 
 ### From sources
 
@@ -110,7 +110,8 @@ so that it's easier to work with. For the curious, this is what I've done:
 * Changed the client backend from LWJGL2 to LWJGL3 to avoid errors on newer JVMs.
 * Removed `libs/` folders and replaced those with proper Gradle dependencies. Yep.
 * Included the server as a Gradle module in the same project to simplify setup.
-* All maps can now be entered by up to 12 players for convenience during randomized setup.
+* Changed all maps so that they can all be entered by up to 12 players for convenience during
+  randomized setup.
 * Made the "elite" player check optional with environment variables. I think this was some
   rough attempt at monetization that I no longer understand nor care about. Just know that
   every player can now play as every character, but you can turn it off if you really want to
